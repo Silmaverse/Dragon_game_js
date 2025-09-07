@@ -1,0 +1,188 @@
+/*  extra small device */
+@media (min-width: 0px) and (max-width: 575.98px) { 
+  
+.dragon {
+	left: 0vw;
+	width: 30vw;
+	height: 12vh;
+}
+  .obstacle {
+	width: 20vw;
+	height: 10vh;
+	right: 30px;
+}
+
+    .gameOver {
+        top: 38vh;
+	    left: 21vw;
+        font-size: 2rem;
+    }
+
+
+
+    .reset {
+        padding: 16px;
+        font-size: 14px;
+        top:78px;
+     
+    }
+
+    .scorCount {
+	
+        padding: 16px;
+    }
+
+    #gameName {
+        width:96%;
+        font-size: 25px;
+        top:32%
+    }
+
+    @keyframes asho{
+    0%{
+         left:70vw;
+    }
+    100%{
+        left:-10vw;
+    }
+}
+
+}
+
+/* extra small device end */
+
+/*  small device start*/
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .dragon {
+	
+        left: 0px;
+        width: 128px;
+        height: 86px;
+    }
+
+    .obstacle {
+	   width: 98px;
+      height: 80px;
+
+    }
+
+  .gameOver {
+        top: 27vh;
+        left: 21vw;
+        font-size: 2rem;
+    }
+
+    .reset {
+        padding: 16px;
+        font-size: 14px;
+        top:78px;
+     
+    }
+
+    .scorCount {
+	
+        padding: 16px;
+    }
+
+    #gameName {
+	width: 74%;
+	font-size: 25px;
+  }
+
+}
+
+/* small device end */
+
+/* medium device start */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .dragon {
+	
+        left: 0px;
+        width: 128px;
+        height: 86px;
+    }
+
+    .obstacle {
+	   width: 98px;
+      height: 80px;
+
+    }
+
+    .gameOver {
+        top: 30vh;
+        left: 26vw;
+        font-size: 2rem;
+    }
+
+    .reset {
+        padding: 16px;
+        font-size: 14px;
+        top:78px;
+     
+    }
+
+    .scorCount {
+	
+        padding: 16px;
+    }
+
+    #gameName {
+	width: 74%;
+	font-size: 25px;
+    transform:translate(-40%, 50%)
+  }
+  
+}
+
+/* medium device end */
+
+/* large device start */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   .dragon {
+	    left: 0px;
+        width: 156px;
+        height: 100px;
+    }
+
+    .obstacle {
+        width: 120px;
+        height: 90px;
+    }
+
+   .gameOver {
+        top: 30vh;
+        left: 37vw;
+        font-size: 2rem;
+    }
+
+    .reset {
+        padding: 16px;
+        font-size: 14px;
+        top:78px;
+     
+    }
+
+    .scorCount {
+	
+        padding: 16px;
+    }
+
+    #gameName {
+        width: 74%;
+        font-size: 25px;
+        transform: translate(-25%, 50%);
+    }
+  
+}
+
+/* large deviec end */
+
+/* extra large deive start */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .gameOver {
+	
+	font-size: 3rem;
+ }
+}
+/* extra large device end */
